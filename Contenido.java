@@ -63,4 +63,22 @@ public void agregarEtiqueta(String tag) {
   }
 }
 
+@Override
+public void publicar() {
+  estado = EstadoPublicacion.PUBLICADO;
+
+@Override
+public void despublicar() {
+  estado = EstadoPublicacion.BORRADOR;
+}
+
+@Override
+public abstract String visualizar();
+
+@Override
+public String toString() {
+  return getClass().getSimpleName() + " {id=" + id + ", titulo='" + titulo + '\'' + ", autor='" + autor + '\'' + ", estado=" + estado + '}'; }
+}
+
+
 
