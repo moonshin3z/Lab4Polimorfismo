@@ -3,38 +3,38 @@ public abstract class Usuario{
   protected String nombre;
   protected RolUsuario rol;
 
-  Public Usuario(String username, String nombre, RolUsuario rol){
+  public Usuario(String username, String nombre, RolUsuario rol){
       this.username = username;
       this.nombre = nombre;
       this.rol = rol;
   }
 
-  Public String getUsername{
+  public String getUsername{
       return username;
   }
 
-  Public void SetUsername(String username){
+  public void SetUsername(String username){
       this.username = username;
   }
 
-  Public String getNombre{
+  public String getNombre{
       return nombre;
   }
 
-  Public void SetNombre(String nombre){
+  public void SetNombre(String nombre){
       this.nombre = nombre;
   }
 
-  Public RolUsuario getRol{
+  public RolUsuario getRol{
       return rol;
   }
 
-  Public void SetRol(RolUsuario rol){
+  public void SetRol(RolUsuario rol){
       this.rol = rol;
   }
 
   @Override
-  Public String toString(){
+  public String toString(){
       return "Usuario{" +
         "username='" + username + '\'' +
                 ", nombre='" + nombre + '\'' +
@@ -42,6 +42,7 @@ public abstract class Usuario{
                 '}';
   }
 }
+
 
 
 
