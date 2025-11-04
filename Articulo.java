@@ -32,6 +32,7 @@ public String visualizar() {
 @Override
 public String toString() {
   return "Articulo {id=" + id + ", titulo='" + titulo + "', autor='" + autor + "', estado=" + estado + "}"; 
- }
+  }
 }
   
+
