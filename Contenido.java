@@ -21,6 +21,10 @@ public Contenido(int id, String titulo, String autor) {
 
 }
 
+public void setId(int id) {
+    this.id = id; 
+  }
+  
 public int getID() {
   return id;
 }
@@ -58,4 +62,5 @@ public void agregarEtiqueta(String tag) {
     etiquetas.add(tag.trim());
   }
 }
+
 
