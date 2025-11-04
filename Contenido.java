@@ -20,3 +20,42 @@ public Contenido(int id, String titulo, String autor) {
   this.etiquetas = new HashSet<>();
 
 }
+
+public int getID() {
+  return id;
+}
+
+public String getTitulo() {
+  return titulo;
+}
+
+public String getAutor() {
+  return autor;
+}
+
+public EstadoPublicacion getEstado() {
+  return estado;
+}
+
+public List<Categoria> getCategorias() {
+  return categorias;
+}
+
+public Set<String> getEtiquetas() {
+  return etiquetas;
+}
+
+@Override
+public void agregarCategoria(Categoria categoria) {
+  if (categoria != null) {
+    categorias.add(categoria);
+  }
+}
+
+@Override
+public void agregarEtiqueta(String tag) {
+  if (tag != null && !tag.isBlank()) {
+    etiquetas.add(tag.trim());
+  }
+}
+
