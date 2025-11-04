@@ -3,5 +3,7 @@ public class Usuario{
   private String nombre;
   private RolUsuario rol;
 
+  
 }
+
 
