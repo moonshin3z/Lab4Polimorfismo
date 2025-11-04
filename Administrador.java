@@ -23,5 +23,7 @@ public class Administrador extends Usuario{
                 ", rol=" + rol +
                 ", claveAdmin='" + claveAdmin + '\'' +
                 '}';
+    }
 }
+
 
