@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Categoria {
   private String nombre;
 
@@ -23,4 +21,5 @@ public class Categoria {
   }
 
 }
+
 
